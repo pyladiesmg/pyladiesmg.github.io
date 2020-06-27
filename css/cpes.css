@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+.inicio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#logo{
+    width: 80%;
+}
+
+#seta{
+    margin-top: 50px;
+    width: 50pt;
+}
+
+/*---------*/
+
+.informacoes{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../imagens/pexels-photo-735911.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#data_evento{
+    font-size: 11vh;
+    color: white;
+}
+
+#oeg{
+    font-size: 8vh;
+    color: white;
+}
+
+#premiacao{
+    font-size: 6vh;
+    color: white;
+}
+
+#condicao{
+    font-size: 3vh;
+    color: white;
+}
+
+#link_regras{
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*---------*/
+
+.jogos{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#jogos_realizados{
+    color: white;
+    font-size: 40px;
+}
+
+.linhas{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+#jogos{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(24, 18, 70);
+    border: 2px solid white;
+    margin: 15px;
+}
+
+#capa{
+    width: 350px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#header{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.jogos p{
+    color: white;
+}
+
+#link_ins{
+    color: white;
+    text-decoration: none;
+}
+
+/*---------*/
+.rodape{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulorodape{
+    color: white;
+    font-size: 25px;
+}
+
+#redes{
+    height: 30px;
+    margin: 0 15px 15px 15px;
+}
+
+
+/*_________________________________________*/
+.inicio_regras{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+#logo_regras{
+    margin: 30px;
+    width: 400px;
+}
