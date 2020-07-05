@@ -104,7 +104,7 @@ body, html{
 }
 
 #capa{
-    width: 350px;
+    width: 250px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
@@ -145,15 +145,64 @@ body, html{
 
 /*_________________________________________*/
 .inicio_regras{
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     width: 100%;
+}
+
+.demaisRegras{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#linksregras1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #logo_regras{
     margin: 30px;
     width: 400px;
+}
+
+#tituloRegras{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.divisao_regras{
+    width: 80%;
+}
+
+#topicoRegras{
+    color: white;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: 50px;
+}
+
+#subTopicoRegras{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#link_pregras{
+    color: red;
+    text-decoration: none;
+}
+
+#linksregras2{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
 }
