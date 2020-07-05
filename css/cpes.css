@@ -45,15 +45,13 @@ body, html{
 #data_evento{
     font-size: 11vh;
     color: white;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 #oeg{
     font-size: 8vh;
     color: white;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 #premiacao{
@@ -88,6 +86,7 @@ body, html{
     font-size: 40px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .linhas{
