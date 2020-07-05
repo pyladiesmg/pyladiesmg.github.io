@@ -172,7 +172,7 @@ body, html{
 
 #logo_regras{
     margin: 30px;
-    width: 400px;
+    width: 35%;
 }
 
 #tituloRegras{
@@ -212,7 +212,17 @@ body, html{
     margin: 20px;
 }
 
+#linksregras2:hover{
+    color: red;
+}
+
 #tabelacr{
     width: 100%;
     height: auto;
+}
+
+#btn{
+    font-size: 40px;
+    color: red;
+    text-decoration: none;
 }
