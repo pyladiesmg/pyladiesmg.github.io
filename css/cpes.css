@@ -211,3 +211,8 @@ body, html{
     font-size: 20px;
     margin: 20px;
 }
+
+#tabelacr{
+    width: 100%;
+    height: auto;
+}
