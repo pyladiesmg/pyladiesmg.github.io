@@ -171,8 +171,11 @@ body, html{
 }
 
 #linkinicial{
-    text-align: center;
+    display: flex;
     text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 #logo_regras{
