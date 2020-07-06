@@ -170,6 +170,11 @@ body, html{
     justify-content: center;
 }
 
+#linkinicial{
+    text-align: center;
+    text-decoration: none;
+}
+
 #logo_regras{
     margin: 30px;
     width: 35%;
